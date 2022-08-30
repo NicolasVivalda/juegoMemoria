@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego memoria</title>
+    <link rel="stylesheet" href="../juegoMemoria/node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <style type="text/css">
+      .col {
+        background-color: white;
+        height: 200px;
+        color: black; 
+        cursor: pointer;
+        
+      }
+      
+      .col.select {
+        background-color: orange;
+        cursor: auto;
+      }
+
+      .hiden {
+        background-color: gray;
+        height: 200px;
+      }
+
+      .col {
+        border: 1px solid black;
+      }
+      
+      #tablero {
+        user-select: none;
+      }
+
+    </style>
+</head>
+<body>
+  
+  <h1 class="text-center"> <strong>Juguemos una partida!!!</strong> </h1>  <br>
+
+  <div id="tablero">
+  <div class="container text-center">
+    <div class="row row-cols-4"> 
+      <div class="col"># </div>
+      <div class="col"># </div>
+      <div class="col"># </div>
+      <div class="col"># </div>
+  </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col"># </div>
+      <div class="col"># </div>
+      <div class="col"># </div>
+      <div class="col"># </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col"># </div>
+      <div class="col"># </div>
+      <div class="col"># </div>
+      <div class="col"># </div>
+    </div>
+  </div> 
+</div>
+
+  
+
+    <script src="src/index.js"></script>
+</body>
+</html>
