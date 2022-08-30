@@ -1,5 +1,5 @@
 # juegoMemoria
- Juego recordar secuencia seleccionada.
+ Juego recordar secuencia seleccionada. Incluye bootstrap y test cypress.
 
  ## Instalación
 
